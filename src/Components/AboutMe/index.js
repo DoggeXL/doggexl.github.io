@@ -25,9 +25,11 @@ const AboutList = ({ about }) => (
   <a href={about.html_url}><img src={about.avatar_url} id="me"className="image"/></a>
 
   </div>
+  <div className="picinfo">
   <li id="name"><a href={about.html_url}>{about.login}</a></li>
   <li>Followers: {about.followers} </li>
   <li>Repos: {about.public_repos}</li>
+  </div>
   </ul>
 
   </div>

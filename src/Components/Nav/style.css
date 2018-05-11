@@ -36,3 +36,23 @@ ul {
 
 #navbar  a:hover   { color: #ffa500
      }  /* user hovers     */
+
+
+     @media screen and (max-width: 400px) {
+       #navbar {
+
+       }
+       ul {
+          font-size: 21px;
+           margin: 0 0 0 -65px;
+       }
+     }
+     @media screen and (max-width: 320px) {
+       #navbar {
+
+       }
+       ul {
+          font-size: 16px;
+           margin: 0 0 0 -65px;
+       }
+     }
