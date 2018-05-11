@@ -1,0 +1,38 @@
+#navbar {
+    background-color: rgba(0,0,0,0.8);
+    height: 60px;
+}
+
+
+ul {
+   margin: 0 0 0 -100px;
+}
+
+#git  {
+  display:inline-grid;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.nav a {
+    line-height:57px;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    padding: left
+}
+
+
+#navbar a:link    {
+  color: #ffffff
+  }  /* unvisited links */
+#navbar a:visited {
+  color: #ffffff }  /* visited links   */
+
+#navbar a:active  {
+  color: #ccc
+  }  /* active links    */
+
+
+#navbar  a:hover   { color: #ffa500
+     }  /* user hovers     */
