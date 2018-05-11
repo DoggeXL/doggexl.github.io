@@ -157,3 +157,115 @@ margin-bottom: 10px
       margin-right: 75px;
     }
     }
+
+    @media screen and (max-width: 400px) {
+      .box1 {
+        margin-right: -50px;
+        margin-top: -500px;
+      }
+      .picinfo {
+        font-size: 18px;
+      }
+      #me {
+        border-radius: 100px;
+        border: 6px solid white;
+        max-width: 110px;
+      }
+      .box {
+        margin-top: 180px;
+        max-width: 400px;
+        margin-left: 70px;
+      }
+      #bio {
+        font-size: 16px;
+        text-align: center;
+        margin-left: 30px;
+       max-width: 300px;
+       border-bottom: 1px solid black;
+      }
+      .about {
+
+       margin-right: 260px;
+      }
+
+      .languages {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+          margin-top: -8px;
+          border-bottom: 1px solid black;
+      }
+      .box #git {
+        max-width: 60px;
+        max-height: 60px;
+        margin-right: 75px;
+        margin-top: -20px;
+      }
+      }
+
+      @media screen and (max-width: 320px) {
+        .box1 {
+          margin-right: -30px;
+          margin-top: -490px;
+        }
+        .picinfo {
+          font-size: 18px;
+        }
+        #me {
+          border-radius: 100px;
+          border: 6px solid white;
+          max-width: 110px;
+        }
+        .box {
+          margin-top: 180px;
+          max-width: 400px;
+          margin-left: 50px;
+        }
+        #bio {
+          font-size: 16px;
+          text-align: center;
+          margin-left: 10px;
+         max-width: 300px;
+         border-bottom: 1px solid black;
+        }
+        .about {
+
+         margin-right: 260px;
+        }
+        #webdeveloper {
+          margin-right: 20px;
+        }
+
+        .languages {
+          font-size: 20px;
+          margin-bottom: 30px;
+          margin-right: 20px;
+            margin-top: -8px;
+            border-bottom: 1px solid black;
+        }
+        .box #git {
+          max-width: 60px;
+          max-height: 60px;
+          margin-right: 75px;
+          margin-top: -20px;
+        }
+        }
+
+      @media screen and (max-width: 400px) {
+        #navbar {
+
+        }
+        ul {
+           font-size: 19px;
+            margin: 0 0 0 -80px;
+        }
+      }
+      @media screen and (max-width: 320px) {
+        #navbar {
+
+        }
+        ul {
+           font-size: 16px;
+            margin: 0 0 0 -65px;
+        }
+      }
