@@ -1,9 +1,0 @@
-.space {
-  display: grid;
-  grid-gap: 0px;
-  list-style-type: none;
-}
-
-.space:nth-child(odd) {
-  background-color: #c3c3c3;
-}
