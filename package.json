@@ -2,7 +2,6 @@
   "name": "currentprojects",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://doggexl.github.io",
   "dependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
