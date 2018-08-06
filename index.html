@@ -168,8 +168,8 @@
                          </ul>
                        </div>
                      </div>
-
-
+                    <script>fetch('https://api.instagram.com/v1/users/self/?access_token=1933685750.1677ed0.ff90f629f7fb4a748ed8f2a3736ce7b1&callback=instagram').then((res => res.json()))</script>
+                    <img src="" id="igpic" />
                 </div>
               </div>
             </div>
@@ -228,6 +228,11 @@
       <script src="js/bootstrap.min.js"></script>
     </body>
         <script>
+	function instagram(i) {
+	  	document.getElementById('igpic').src += i.data.profile_picture;
+	}
+		
+		
         function profile(data) {
            document.getElementById('followers').innerHTML += data.data.followers;
            document.getElementById('bio').innerHTML += data.data.bio;
