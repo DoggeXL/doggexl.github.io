@@ -233,7 +233,7 @@
 	function instagram(i) {
 	  	document.getElementById('igpic').src = i.data.profile_picture;
 		document.getElementById('igname').innerHTML = i.data.username;
-		document.getElementById('igfollowers').innerHTML = i.data.counts.followed_by;
+		document.getElementById('igfollowers').innerHTML += i.data.counts.followed_by;
 	}
 		
 		
