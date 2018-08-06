@@ -171,7 +171,7 @@
                     
                     <img id="igpic" />
 			<h3 id="igname"></h3>
-			<h3 id="igfollowers"></h3>
+			<h3 id="igfollowers">Followers: </h3>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@
 	function instagram(i) {
 	  	document.getElementById('igpic').src = i.data.profile_picture;
 		document.getElementById('igname').innerHTML = i.data.username;
-		document.getElementById('igfollowers').innerHTML = i.counts.followed_by;
+		document.getElementById('igfollowers').innerHTML = i.data.counts.followed_by;
 	}
 		
 		
